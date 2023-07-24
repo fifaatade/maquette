@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/maquette.css" />
+
+    <title>test maquette</title>
+  </head>
+  <body>
+    <header id="header" >
+      <div class="container">
+        <div class="header">
+          <div class="logo">LOGO</div>
+          <div id="header-right">
+            <div class="menu actif"><a href="#">Accueil</a></div>
+            <div class="menu"><a href="#">blog</a></div>
+            <div class="menu"><a href="#">Evènement</a></div>
+            <div class="menu"><a href="#">A propos</a></div>
+            <div class="menu"><a href="#">contacts</a></div>
+          </div>
+
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="myFunction()"
+            id="barre"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="banner">
+        <div class="container">
+          <div class="banner">
+            <div id="banner-left">
+              <h1>Work Hard</h1>
+              <div id="text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure .
+                </p>
+              </div>
+              <div id="link2">
+                <a href="#">Découvrir</a>
+              </div>
+            </div>
+            <div id="banner-img">
+              <img src="/image/icone-service1.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="service">
+        <div class="container">
+          <h2>Nos services</h2>
+          <div id="service-text">
+            lorem ipsum dolor sit amet, conceptetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.isi ut aliquip ex ea
+            commodo consequat.
+          </div>
+        </div>
+      </section>
+      <section id="list-item">
+        <div class="container">
+          <div id="items">
+            <div class="service">
+              <img src="/image/icone-service2.png" />
+              <h3>service 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor...
+              </p>
+              <div class="link">
+                <a href="#"><span>Découvrir </span> </a>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/image/icone-service2.png" />
+              <h3>service 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor...
+              </p>
+              <div class="link">
+                <a href="#">Découvrir </a>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/image/icone-service2.png" />
+              <h3>service 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor...
+              </p>
+              <div class="link"> 
+                <a href="#">Découvrir</a>
+              </div>
+            </div>
+            <div class="service">
+              <img src="/image/icone-service2.png" />
+              <h3>service 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor...
+              </p>
+              <div class="link">
+                <a href="#">Découvrir</a>
+              </div>
+            </div>
+          </div>
+          <div class="services">
+            <div class="link space"><a href="#">Découvrir</a></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div id="contactez-nous">Pour nous contactez</div>
+          <div id="form">
+            <form action="#">
+              <div class="form-item">
+                <label for="name">Nom et prénoms:</label>
+                <input type="text" placeholder="Nom et prénom" />
+              </div>
+              <div class="form-item">
+                <label for="mail">E-mail:</label>
+                <input type="email" placeholder="E-mail" />
+              </div>
+              <div class="form-item">
+                <label for="objet">Objet:</label>
+                <input type="text" placeholder="Objet" />
+              </div>
+              <div class="form-item">
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Message"></textarea>
+              </div>
+              <div class="form-item">
+                <button class="form-item-btn" type="button">Envoyez</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>Tous droits réservés,@ 2022.</p>
+    <footer/>
+    <script <!-- src="/js/maquette.js" -->>
+      function userName(){
+        console.log("javaScript")
+      }
+      userName()
+    </script>
+  </body>
+</html>
